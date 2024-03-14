@@ -22,7 +22,7 @@ export default function Contact(){
       value
     }).then((response)=>{
       console.log(response)
-      navigate("/user/login")
+      navigate("/")
     })
     
     console.log(value);

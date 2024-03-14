@@ -17,6 +17,7 @@ function AppointmentBooking() {
       alert('Please fill all fields and select date and time for the appointment');
       return;
     }else{
+      
       axios.post("http://localhost:3001/add-appointment",{
         name,
         mobileNumber,
@@ -26,7 +27,7 @@ function AppointmentBooking() {
       }).then((response)=>{
         console.log(response)
       });
-      
+      alert('Appointment booked successfully');
     }
 
   
