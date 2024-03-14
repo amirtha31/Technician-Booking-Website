@@ -5,6 +5,7 @@ function Sidebar({ setPage }) {
     <div className="sidebar">
       <a href="ListBooking">ListBooking</a>
       <a href="ListSubscribers" >ListSubscribers</a>
+      <a href='/'>Logout</a>
       
     </div>
   );
