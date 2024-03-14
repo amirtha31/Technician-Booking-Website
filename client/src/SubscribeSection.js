@@ -8,21 +8,20 @@ function SubscribeSection() {
 
   const handleSubscribe = async () => {
     try {
-      // Log the email value
+     
       console.log(email);
 
-      // Perform any validation if needed
+      
 
-      // Post the email to your backend or API endpoint
+      
       await axios.post('http://localhost:3001/add-subscriber', { email });
 
-      // If successful, set subscribed to true
+      
       setSubscribed(true);
 
-      // Clear the email input field
       setEmail('');
     } catch (error) {
-      // If there's an error, set the error state
+  
       setError('Something went wrong. Please try again later.');
     }
   };

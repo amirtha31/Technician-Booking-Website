@@ -1,13 +1,12 @@
 import { TextInput, PasswordInput, Text, Button, Group, Box } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { useDisclosure } from '@mantine/hooks';
-import { Link } from 'react-router-dom';
 import "react-toastify/dist/ReactToastify.css";
-import { toast, ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 export default function Admin(){
-    const [visible, { toggle }] = useDisclosure(false);
+    const [ { toggle }] = useDisclosure(false);
     const navigate = useNavigate()
    
     const form = useForm({
@@ -19,9 +18,7 @@ export default function Admin(){
           
         },
               
-        validate: {
-          email: (value) => (/^\S+@\S+$/.test(value) ? null : 'Invalid email'),
-        },
+       
         
       });
   async function handleSubmit() {
@@ -57,7 +54,6 @@ export default function Admin(){
         />
         <PasswordInput
         label="Password"
-        // visible={visible}
         {...form.getInputProps('password')}
         onVisibilityChange={toggle}
       />

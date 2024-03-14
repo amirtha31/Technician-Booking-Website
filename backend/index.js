@@ -146,7 +146,7 @@ app.post("/add-appointment", (req, res) => {
   });
 
 
-  
+  // login
  
   app.post("/login", (req, res) => {
     const { email, password } = req.body.value; 
@@ -172,6 +172,8 @@ app.post("/add-appointment", (req, res) => {
         res.status(200).json({ success: true, message: "Login successful" });
     });
 });
+
+// admin
 
 app.post("/admin", (req, res) => {
   const { email, password } = req.body.value; 

@@ -1,6 +1,6 @@
 // Content.js
 import React from 'react';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 
 function Content({ page }) {
   let content = '';

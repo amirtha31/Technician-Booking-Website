@@ -22,7 +22,7 @@ function Portfolio() {
                     <h3> Work 4</h3>
                     <p>Adipisicing incididunt ea tempor occaecat. Eu nulla esse aliqua nisi. Laboris culpa aute enim nulla irure est. Lorem pariatur voluptate commodo laboris exercitation reprehenderit. Irure aute ullamco cillum eiusmod sint Lorem sint veniam qui.</p>
                 </div>
-                {/* Add more portfolio items as needed */}
+             
             </div>
             <div className="portfolio-image">
                 

@@ -37,7 +37,7 @@ function App() {
     <div className="App">
      
       <MantineProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.REACT_URL}>
          {/* <nav>
           <ul>
           <li>

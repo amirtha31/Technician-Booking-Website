@@ -1,13 +1,11 @@
-import { TextInput, PasswordInput, Textarea,Text, Button, Group, Box } from '@mantine/core';
+import { TextInput,  Textarea,Text, Button, Group, Box } from '@mantine/core';
 import { useForm } from '@mantine/form';
-import { useDisclosure } from '@mantine/hooks';
-import { Link } from 'react-router-dom';
 import "react-toastify/dist/ReactToastify.css";
-import { toast, ToastContainer } from 'react-toastify';
+import {ToastContainer } from 'react-toastify';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 export default function Contact(){
-    const [visible, { toggle }] = useDisclosure(false);
+
     const navigate = useNavigate()
   const form = useForm({
     initialValues: { name: '', email: '', subject: '', message: ''},
@@ -60,7 +58,6 @@ export default function Contact(){
         />
          <Textarea
         placeholder="Your message"
-        // label="Autosize with no rows limit"
         autosize
         minRows={2}
         {...form.getInputProps('message')}

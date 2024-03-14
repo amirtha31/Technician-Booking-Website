@@ -28,7 +28,6 @@ Pariatur non mollit consequat do eu commodo commodo. Cupidatat non ad ea labore 
 Occaecat nostrud consectetur ea sit veniam ipsum exercitation. Et cupidatat veniam aute elit nostrud Lorem dolor exercitation. Lorem ullamco et dolore nulla anim. Id qui mollit amet non magna. Aute sint irure magna aute laborum est.
 Nisi ullamco velit consequat ipsum sunt. Laboris eiusmod dolore laborum cupidatat pariatur laboris anim voluptate sunt. Deserunt cillum et ullamco sint aliqua nisi ex consequat occaecat. Lorem ullamco tempor do voluptate veniam sit velit exercitation.</p>
 
-{/* <p>Ut sint irure adipisicing ipsum esse ullamco. Ex velit excepteur enim elit magna mollit magna duis. Voluptate tempor tempor ex consectetur sint. Velit magna sint exercitation consequat duis id quis ut.</p> */}
 </div>
 </div>
             </div>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Datetime from 'react-datetime';
 import { Box, Divider, Text,} from '@mantine/core';
-import { useForm } from '@mantine/form';
 import 'react-datetime/css/react-datetime.css';
 import axios from 'axios';
 import './App.css';
@@ -94,6 +93,7 @@ function AppointmentBooking() {
         />
         <button type='button' onClick={handleBooking} className="button">Book Appointment</button>
       </div>
+      
       </form>
       </Box>
     </>

@@ -26,6 +26,7 @@ export default function Carousel(){
             <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
                 <span style={{ backgroundColor: "#004795" }} className="carousel-control-next-icon rounded-circle" />
             </button>
+            
         </div>
         </>
     )

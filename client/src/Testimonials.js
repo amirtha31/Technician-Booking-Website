@@ -13,7 +13,7 @@ const testimonials = [
       author: 'Jane Smith',
       quote: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
-    // Add more testimonials as needed
+    
   ];
 
 
@@ -25,7 +25,7 @@ const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
       setCurrentTestimonialIndex((prevIndex) =>
         prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change testimonial every 5 seconds (adjust as needed)
+    }, 5000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -33,7 +33,7 @@ const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
     return(
         <>
   <>
-  {/*div col start  */}
+ 
   <div className="container">
     <div className="row my-5 py-5">
       <div className="col">
@@ -75,7 +75,7 @@ const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
       </div>
     </div>
   </div>
-  {/* div col end */}
+
 
   <div className="testimonial-container">
       {testimonials.map((testimonial, index) => (

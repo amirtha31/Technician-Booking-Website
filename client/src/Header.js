@@ -1,10 +1,4 @@
 
-import { MantineProvider, Text, } from '@mantine/core';
-import { Link } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import './App.css';
 import Carousel from './Carousel';
 import FlashcardPresentation from './Flashcards';
@@ -18,7 +12,7 @@ export default function Header(){
 
     <nav className="navbar navbar-expand-sm bg-light small navbar-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="/">
       <img
         src="https://i.pinimg.com/736x/da/c7/58/dac758d7606690d057a9cbba5f259154.jpg"
         alt="" height={50} width={50}
@@ -42,7 +36,7 @@ export default function Header(){
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href="/Fashcards"
             role="button"
             data-bs-toggle="dropdown"
           >

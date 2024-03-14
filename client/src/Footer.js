@@ -10,7 +10,6 @@ export default function Footer(){
   >
     
     <div className="container p-4 pb-0">
-      
       <section className="">
         
         <div className="row">
@@ -73,29 +72,27 @@ export default function Footer(){
           <div className="col-md-7 col-lg-8 text-center text-md-start">
             
             <div className="p-3">
-              © 2024 Copyright:
-              <a className="text-white" href="#">
-                Amirtha
-              </a>
+              © 2024 Copyright: Amirtha
+               
             </div>
             
           </div>
           
           <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
           
-            <a className="btn btn-outline-light btn-floating m-1" role="button">
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/">
               <i className="fab fa-facebook-f" />
             </a>
             
-            <a className="btn btn-outline-light btn-floating m-1" role="button">
+            <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/">
               <i className="fab fa-twitter" />
             </a>
             
-            <a className="btn btn-outline-light btn-floating m-1" role="button">
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.google.com/">
               <i className="fab fa-google" />
             </a>
             
-            <a className="btn btn-outline-light btn-floating m-1" role="button">
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/">
               <i className="fab fa-instagram" />
             </a>
           </div>
